@@ -1,0 +1,6 @@
+while( true )
+do
+wait(5)
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("RE_Rebirth"):FireServer()
+
+end
